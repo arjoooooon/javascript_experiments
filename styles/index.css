@@ -1,0 +1,140 @@
+.first-page{
+    background-color: lightblue;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    border: 2px solid lightblue;
+    box-shadow: 2%;
+    font-size: 3em;
+    padding: 2%;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 0 0;
+}
+
+#message{
+    border: 2px solid lightblue;
+    box-shadow: 2%;
+    padding: 2%;
+    margin: 0 3%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 0 0;
+    font-size: 1.1em;
+    letter-spacing: 0.07em;
+    line-height: 4vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fl{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.next-button{
+    display: inline-block;
+    margin: 5%;
+    padding: 2%;
+    line-height: 2vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 0;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+.second-page{
+    height: 100vh;
+    background-color: lightcoral;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#draggable{
+    position: absolute;
+    top: 150vh;
+    left: 20px;
+}
+
+iframe {
+    display: block;
+    /* iframes are inline by default */
+    border: none;
+    /* Reset default border */
+    height: 100vh;
+    /* Viewport-relative units */
+    width: 100vw;
+    mix-blend-mode: screen;
+    margin: 0;
+    padding: 0;
+}
+
+#over{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode: difference;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#experiment-text{
+    color: blue;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    margin: 0 5%;
+}
+
+#scn-move-on{
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin: 1.5% 5%;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.third-page{
+    background-color: lightgray;
+    position: absolute;
+    top: 200vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
